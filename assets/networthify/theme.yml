@@ -1,0 +1,21 @@
+{
+  "stylesheets" : {
+    "default" : [
+      "bootstrap.min.css",
+      "blog.css"
+    ],
+   
+    "widgets" : {
+      "google_prettify" : "twitter-bootstrap.css"
+    }
+    
+  },
+
+  "javascripts" : {
+    "default" : [
+    ]
+  },
+  
+  "manifest" : {
+  }
+}

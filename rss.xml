@@ -3,7 +3,7 @@
   <channel>
     <title>Networthify (the blog)</title>
     <link>http://blog.networthify.com</link>
-    <pubDate>2012-08-25 18:43:39 +0100</pubDate>
+    <pubDate>2012-08-25 19:35:55 +0100</pubDate>
     <item>
       <title>The math behind the calculator</title>
       <link>http://blog.networthify.com/math/the-math-behind-the-calculator/</link>
@@ -14,6 +14,7 @@
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;The math behind the calculator&lt;/title&gt;
     &lt;meta name="author" content="Eric Johnson"&gt;
+    &lt;link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds.feedburner.com/Networthify"&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -21,9 +22,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/networthify/stylesheets/bootstrap.min.css?0.5818806337324898" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/networthify/stylesheets/blog.css?0.6442842783849871" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/networthify/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.4194319965802893" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/networthify/stylesheets/bootstrap.min.css?0.2954223950098239" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/networthify/stylesheets/blog.css?0.640955341134066" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/networthify/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.6039333456700273" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -47,9 +48,10 @@
               
                 &lt;li&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
               
-                &lt;li&gt;&lt;a href="/categories"&gt;Categories&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/categories/"&gt;Categories&lt;/a&gt;&lt;/li&gt;
               
-                &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/about/"&gt;About Me&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="http://feeds.feedburner.com/Networthify" rel="alternate" type="application/rss+xml"&gt;RSS&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
         &lt;/div&gt;
       &lt;/div&gt;
@@ -215,7 +217,7 @@ doing natural log stuff, &lt;em&gt;handwaving&lt;/em&gt;, &lt;em&gt;handwaving&l
     &lt;h4&gt;Categories&lt;/h4&gt;
     &lt;ul class="tag_box"&gt;
       &lt;li&gt;
-        &lt;a href="/categories#math-ref"&gt;math &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+        &lt;a href="/categories/#math-ref"&gt;math &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
       &lt;/li&gt;    &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -262,6 +264,7 @@ doing natural log stuff, &lt;em&gt;handwaving&lt;/em&gt;, &lt;em&gt;handwaving&l
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;Spending money shortens your life&lt;/title&gt;
     &lt;meta name="author" content="Eric Johnson"&gt;
+    &lt;link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds.feedburner.com/Networthify"&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -269,9 +272,9 @@ doing natural log stuff, &lt;em&gt;handwaving&lt;/em&gt;, &lt;em&gt;handwaving&l
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/networthify/stylesheets/bootstrap.min.css?0.25290456139656003" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/networthify/stylesheets/blog.css?0.8096927046283817" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/networthify/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.005714004968690012" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/networthify/stylesheets/bootstrap.min.css?0.49276642153164796" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/networthify/stylesheets/blog.css?0.5271199338988359" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/networthify/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.09676024956805263" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -295,9 +298,10 @@ doing natural log stuff, &lt;em&gt;handwaving&lt;/em&gt;, &lt;em&gt;handwaving&l
               
                 &lt;li&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
               
-                &lt;li&gt;&lt;a href="/categories"&gt;Categories&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/categories/"&gt;Categories&lt;/a&gt;&lt;/li&gt;
               
-                &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/about/"&gt;About Me&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="http://feeds.feedburner.com/Networthify" rel="alternate" type="application/rss+xml"&gt;RSS&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
         &lt;/div&gt;
       &lt;/div&gt;
@@ -375,7 +379,7 @@ trade your time&amp;nbsp;for food and housing.&lt;/p&gt;
     &lt;h4&gt;Categories&lt;/h4&gt;
     &lt;ul class="tag_box"&gt;
       &lt;li&gt;
-        &lt;a href="/categories#saving-ref"&gt;saving &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+        &lt;a href="/categories/#saving-ref"&gt;saving &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
       &lt;/li&gt;    &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
