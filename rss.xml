@@ -3,7 +3,7 @@
   <channel>
     <title>Networthify (the blog)</title>
     <link>http://blog.networthify.com</link>
-    <pubDate>2012-08-25 14:18:22 +0100</pubDate>
+    <pubDate>2012-08-25 14:23:38 +0100</pubDate>
     <item>
       <title>The math behind the calculator</title>
       <link>http://blog.networthify.com/math/the-math-behind-the-calculator/</link>
@@ -12,7 +12,7 @@
     </item>
     <item>
       <title>Spending money shortens your life</title>
-      <link>http://blog.networthify.com/spending-money-shortens-your-life/</link>
+      <link>http://blog.networthify.com/saving/spending-money-shortens-your-life/</link>
       <pubDate>2012-08-14</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -27,9 +27,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/networthify/stylesheets/bootstrap.min.css?0.5110187922502639" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/networthify/stylesheets/blog.css?0.1324065843276344" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/networthify/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.04455871748204643" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/networthify/stylesheets/bootstrap.min.css?0.6632629083788542" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/networthify/stylesheets/blog.css?0.48349728940003855" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/networthify/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.83642748324552" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -133,7 +133,9 @@ trade your time&amp;nbsp;for food and housing.&lt;/p&gt;
     &lt;br&gt;
     &lt;h4&gt;Categories&lt;/h4&gt;
     &lt;ul class="tag_box"&gt;
-    &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;a href="/categories#saving-ref"&gt;saving &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;    &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
