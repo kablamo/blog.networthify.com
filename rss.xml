@@ -3,12 +3,254 @@
   <channel>
     <title>Networthify (the blog)</title>
     <link>http://blog.networthify.com</link>
-    <pubDate>2012-08-25 18:31:52 +0100</pubDate>
+    <pubDate>2012-08-25 18:43:39 +0100</pubDate>
     <item>
       <title>The math behind the calculator</title>
       <link>http://blog.networthify.com/math/the-math-behind-the-calculator/</link>
       <pubDate>2012-08-17</pubDate>
-      <description>hi hi hi hi</description>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;title&gt;The math behind the calculator&lt;/title&gt;
+    &lt;meta name="author" content="Eric Johnson"&gt;
+
+    &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
+    &lt;!--[if lt IE 9]&gt;
+      &lt;script src="http://html5shim.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+
+    &lt;!-- Le styles --&gt;
+    &lt;link href="/assets/networthify/stylesheets/bootstrap.min.css?0.5818806337324898" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/networthify/stylesheets/blog.css?0.6442842783849871" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/networthify/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.4194319965802893" type="text/css" rel="stylesheet" media="all"&gt;
+
+ 
+
+    &lt;!-- Le fav and touch icons --&gt;
+  &lt;!-- Update these with your own images
+    &lt;link rel="shortcut icon" href="images/favicon.ico"&gt;
+    &lt;link rel="apple-touch-icon" href="images/apple-touch-icon.png"&gt;
+    &lt;link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"&gt;
+    &lt;link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"&gt;
+  --&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+
+    &lt;div class="navbar"&gt;
+      &lt;div class="navbar-inner"&gt;
+        &lt;div class="container"&gt;
+          &lt;a class="brand logo" href="/"&gt;Networth&lt;/a&gt;
+          &lt;a class="brand  ify" href="/"&gt;ify&lt;/a&gt;
+          &lt;a class="brand blog" href="/"&gt;(the blog)&lt;/a&gt;
+          &lt;ul class="nav"&gt;
+              
+                &lt;li&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
+              
+                &lt;li&gt;&lt;a href="/categories"&gt;Categories&lt;/a&gt;&lt;/li&gt;
+              
+                &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="container"&gt;
+      &lt;div class="content"&gt;
+        &lt;div class="page-header"&gt;
+  &lt;h1&gt;The math behind the calculator &lt;/h1&gt;
+&lt;/div&gt;
+
+&lt;div class="row"&gt;
+  &lt;div class="span8"&gt;
+    &lt;script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"&gt;
+&lt;/script&gt;
+
+&lt;p&gt;Networthify.com calculates how many years you have to retirement. Lots of
+people have been curious about how it arrives at the magic number.  The answer
+to this question is: &lt;em&gt;Math!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;More specifically the equation which drives the calculator is derived from
+two common formulas used for dealing with compound interest. Many people must
+have done this before me but I couldn&amp;#39;t find an example online and I enjoyed
+doing the math anyway.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class="src" src="http://farm2.staticflickr.com/1228/1443062022_25e5a0a12b.jpg" width="500" height="333" alt="calculator"&gt;
+&lt;a class="src" href="http://www.flickr.com/photos/brandonshigeta/1443062022/"&gt;photo by brandon shigeta&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Before we start with the math, we have to define retirement or else we can&amp;#39;t
+calculate how long it takes to get there.  This is a bit of a problem because
+people will define it differently.  But I&amp;#39;ll just go ahead do it anyway.&lt;/p&gt;
+
+&lt;p&gt;First, I have no idea what my expenses after retirement are going to be but I
+decided it can&amp;#39;t be that different from my current expenses. After all I will
+still need to pay for food, housing, and entertainment. &lt;/p&gt;
+
+&lt;p&gt;Also, I don&amp;#39;t want to ever draw down my retirement nest egg. I want my wealth
+to grow, not shrink. I&amp;#39;m being overly safe, but I don&amp;#39;t want to have some bad
+luck or unexpectedly live to 120 years old and have to lower my standard of
+living.  I want my standard of living to go up because thats way more fun.&lt;/p&gt;
+
+&lt;p&gt;So this is how I defined retirement:&lt;/p&gt;
+
+&lt;p&gt;
+  \[ 
+    \begin{aligned}
+      currentExpenses &amp;amp; = annualIncome - annualSavings \\
+      futureExpenses  &amp;amp; = withdrawalRate \times futureValue \\
+      currentExpenses &amp;amp; = futureExpenses \\
+    \end{aligned}
+  \]
+&lt;/p&gt;
+
+&lt;p&gt;where &lt;em&gt;futureValue&lt;/em&gt; is my total savings after retirement and &lt;em&gt;withdrawalRate&lt;/em&gt;
+is slightly less than my average annual return on investment.  What we want to
+know is how long will it take to save a pile of money equal in size to
+&lt;em&gt;futureValue&lt;/em&gt;.  &lt;/p&gt;
+
+&lt;p&gt;Notice there are 2 basic ways to build a pile of money over time:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Earn interest earned on our existing and growing pile of saved up money.&lt;/li&gt;
+&lt;li&gt;Contribute savings from our annual income.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Happily there are formulas for calculating this stuff.  Lets take a look at them.&lt;/p&gt;
+
+&lt;div class="mathHeader"&gt;The capital accumulation formula&lt;/div&gt;
+
+&lt;p&gt;\[ futureValueA = initialValue \times (1 + interestRate)^n \]&lt;/p&gt;
+
+&lt;p&gt;Lets say you have an initial pile of money.  And someone is willing to pay you
+some interest for it.  This formula calculates how big your pile of money will
+be in the future.&lt;/p&gt;
+
+&lt;p&gt;More precisely: it calculates how much money you will have in the future given
+an initial balance which earns interest each time period for n time periods.
+The time period I use is one month.&lt;/p&gt;
+
+&lt;div class="mathHeader"&gt;The future value of a series formula&lt;/div&gt;
+
+&lt;p&gt;\[ futureValueB = payment \times \frac{ (1 + interestRate)^n - 1 }{ interestRate } \]&lt;/p&gt;
+
+&lt;p&gt;This formula also calculates how much money you will have in the future. But
+this time you start with no money and contribute a payment each time period for
+n time periods while earning interest on your growing pile of money.&lt;/p&gt;
+
+&lt;p&gt;Again I want to use a time period of one month.  I&amp;#39;ll make a small change and
+now this formula calculates what happens when you put some of your salary into
+your savings account each month:&lt;/p&gt;
+
+&lt;p&gt;
+  \[ futureValueB = \frac{annualIncome}{12} \times \frac{ (1 + interestRate)^n - 1 }{ interestRate } \]
+&lt;/p&gt;
+
+&lt;p&gt;But what we really want is a single formula we can solve for n to figure out
+how long it will take to reach retirement.  So lets start doing some
+substitutions:&lt;/p&gt;
+
+&lt;p&gt;
+  \[ 
+    \begin{aligned}
+                   currentExpenses &amp;amp; = annualIncome - annualSavings \\
+                   futureExpenses  &amp;amp; = withdrawalRate \times futureValue \\
+                   currentExpenses &amp;amp; = futureExpenses \\
+                                   \\
+                      futureValue &amp;amp; = futureValueA + futureValueB \\
+                                   \\
+                   currentExpenses &amp;amp; = withdrawalRate \times (futureValueA + futureValueB) \\
+      annualIncome - annualSavings &amp;amp; = withdrawalRate \times (futureValueA + futureValueB) \\
+    \end{aligned}
+  \] 
+&lt;/p&gt;
+
+&lt;p&gt;Awesome.  So now its a &amp;quot;simple&amp;quot; matter of solving for n. So after doing substitutions for &lt;em&gt;futureValueA&lt;/em&gt; and &lt;em&gt;futureValueB&lt;/em&gt;, 
+doing natural log stuff, &lt;em&gt;handwaving&lt;/em&gt;, &lt;em&gt;handwaving&lt;/em&gt; -- I arrived at the following:&lt;/p&gt;
+
+&lt;p&gt;
+  \[
+    n = \frac{ln(interestRate \times \frac{\frac{1 - savingsRate}{savingsRate} + withdrawalRate \times initialValue}{withdrawalRate \times initialValue})}{ln(1 + interestRate)}
+  \]
+&lt;/p&gt;
+
+&lt;p&gt;And thats the math behind the calculator.  Here is more reading for the super duper interested:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://betterexplained.com/articles/demystifying-the-natural-logarithm-ln/"&gt;http://betterexplained.com/articles/demystifying-the-natural-logarithm-ln/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.patrickschneider.com/blog/2008/03/compound-interest-with-an-initial-balance-and-monthly-contributions/"&gt;http://www.patrickschneider.com/blog/2008/03/compound-interest-with-an-initial-balance-and-monthly-contributions/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://en.wikipedia.org/wiki/Compound_interest"&gt;http://en.wikipedia.org/wiki/Compound_interest&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;div class="pagination pagination-centered"&gt;
+      &lt;ul&gt;
+        &lt;ul&gt;
+            &lt;li class="prev"&gt;&lt;a href="/saving/spending-money-shortens-your-life/" title="Spending money shortens your life"&gt;&amp;larr; Previous&lt;/a&gt;&lt;/li&gt;
+
+            &lt;li&gt;&lt;a href="/home"&gt;All posts&lt;/a&gt;&lt;/li&gt;
+
+            &lt;li class="next disabled"&gt;&lt;a&gt;Next &amp;rarr;&lt;/a&gt;
+        &lt;/ul&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div id="disqus_thread"&gt;&lt;/div&gt;
+    &lt;script type="text/javascript"&gt;
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'networthify'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    &lt;/script&gt;
+    &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+  &lt;/div&gt;
+  
+  &lt;div class="span4"&gt;
+    &lt;h4&gt;Published&lt;/h4&gt;
+    &lt;div class="date"&gt;&lt;span&gt;2012-08-17&lt;/span&gt;&lt;/div&gt;
+    &lt;br&gt;
+    &lt;h4&gt;Categories&lt;/h4&gt;
+    &lt;ul class="tag_box"&gt;
+      &lt;li&gt;
+        &lt;a href="/categories#math-ref"&gt;math &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;/div&gt;
+      &lt;footer&gt;&lt;/footer&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Google Prettify --&gt;
+&lt;script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+  var pres = document.getElementsByTagName("pre");
+  for (var i=0; i &lt; pres.length; ++i) {
+    pres[i].className = "prettyprint linenums";
+  }
+  prettyPrint();
+&lt;/script&gt;
+&lt;!-- end Google Prettify --&gt;
+    &lt;script type="text/javascript"&gt;
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-30610896-1']);
+      _gaq.push(['_setDomainName', 'networthify.com']);
+      _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+      _gaq.push(['_trackPageLoadTime']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</description>
     </item>
     <item>
       <title>Spending money shortens your life</title>
@@ -27,9 +269,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/networthify/stylesheets/bootstrap.min.css?0.7437970358655838" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/networthify/stylesheets/blog.css?0.4423460963313294" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/networthify/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.6607038035102731" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/networthify/stylesheets/bootstrap.min.css?0.25290456139656003" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/networthify/stylesheets/blog.css?0.8096927046283817" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/networthify/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.005714004968690012" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
