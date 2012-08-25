@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>Networthify (the blog)</title>
+    <link>http://blog.networthify.com</link>
+    <pubDate>2012-08-25 14:18:22 +0100</pubDate>
+    <item>
+      <title>The math behind the calculator</title>
+      <link>http://blog.networthify.com/math/the-math-behind-the-calculator/</link>
+      <pubDate>2012-08-17</pubDate>
+      <description>hi hi hi hi</description>
+    </item>
+    <item>
+      <title>Spending money shortens your life</title>
+      <link>http://blog.networthify.com/spending-money-shortens-your-life/</link>
+      <pubDate>2012-08-14</pubDate>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;title&gt;Spending money shortens your life&lt;/title&gt;
+    &lt;meta name="author" content="Eric Johnson"&gt;
+
+    &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
+    &lt;!--[if lt IE 9]&gt;
+      &lt;script src="http://html5shim.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+
+    &lt;!-- Le styles --&gt;
+    &lt;link href="/assets/networthify/stylesheets/bootstrap.min.css?0.5110187922502639" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/networthify/stylesheets/blog.css?0.1324065843276344" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/networthify/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.04455871748204643" type="text/css" rel="stylesheet" media="all"&gt;
+
+ 
+
+    &lt;!-- Le fav and touch icons --&gt;
+  &lt;!-- Update these with your own images
+    &lt;link rel="shortcut icon" href="images/favicon.ico"&gt;
+    &lt;link rel="apple-touch-icon" href="images/apple-touch-icon.png"&gt;
+    &lt;link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"&gt;
+    &lt;link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"&gt;
+  --&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+
+    &lt;div class="navbar"&gt;
+      &lt;div class="navbar-inner"&gt;
+        &lt;div class="container"&gt;
+          &lt;a class="brand logo" href="/"&gt;Networth&lt;/a&gt;
+          &lt;a class="brand  ify" href="/"&gt;ify&lt;/a&gt;
+          &lt;a class="brand blog" href="/"&gt;(the blog)&lt;/a&gt;
+          &lt;ul class="nav"&gt;
+              
+                &lt;li&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
+              
+                &lt;li&gt;&lt;a href="/categories"&gt;Categories&lt;/a&gt;&lt;/li&gt;
+              
+                &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="container"&gt;
+      &lt;div class="content"&gt;
+        &lt;div class="page-header"&gt;
+  &lt;h1&gt;Spending money shortens your life &lt;/h1&gt;
+&lt;/div&gt;
+
+&lt;div class="row"&gt;
+  &lt;div class="span8"&gt;
+    &lt;p&gt;One morning you awake to find the tooth fairy made an accounting error in
+your&amp;nbsp;favor. &amp;nbsp;She left $15 million under your pillow. &amp;nbsp;Now you
+have some choices to&amp;nbsp;make. &amp;nbsp;Here is one: Would you continue to wake
+up each day and go to your&amp;nbsp;current job?&lt;/p&gt;
+
+&lt;p&gt;We all have a certain amount of time to live. &amp;nbsp;Every dollar we earn is
+given in&amp;nbsp;exchange for time spent working. &amp;nbsp;So whenever we buy a car
+or underwear or&amp;nbsp;peanut butter we are paying in dollars but those dollars
+represent time. &amp;nbsp;In a&amp;nbsp;very real sense, buying stuff shortens your
+life. &amp;nbsp;(And btw that means a&amp;nbsp;charitible donation is literally giving
+part of your life to another, taxes are the&amp;nbsp;government redistributing
+life, national debt shortens the life of people of&amp;nbsp;the future, etc,
+etc.)&lt;/p&gt;
+
+&lt;p&gt;The most common response to this problem is: Find a job you love. &amp;nbsp;This
+is good&amp;nbsp;advice. &amp;nbsp;The more pleasant your job is, the lower the
+opportunity cost. &amp;nbsp;But&amp;nbsp;think about the tooth fairy test.
+&amp;nbsp;There just arent very many jobs&amp;nbsp;out there that are going to pass
+that test. &amp;nbsp;And unless you love your job enough&amp;nbsp;that you would do it
+even if you were financially independent -- then you are&amp;nbsp;still selling
+away large pieces of your life.&lt;/p&gt;
+
+&lt;p&gt;There is only one escape: save enough money to live off the returns from
+your&amp;nbsp;investments. &amp;nbsp;Reach this goal and you will never again need to
+trade your time&amp;nbsp;for food and housing.&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;img class="src" src="http://farm2.staticflickr.com/1238/540936323_fc59ef2ce2.jpg" width="500" height="333" alt="Money"&gt;
+  &lt;a class="src" href="http://www.flickr.com/photos/thomashawk/540936323/" title="Money by Thomas Hawk, on Flickr"&gt;Photo by Thomas Hawk&lt;/a&gt;
+&lt;/p&gt;
+
+    &lt;div class="pagination pagination-centered"&gt;
+      &lt;ul&gt;
+        &lt;ul&gt;
+            &lt;li class="prev disabled"&gt;&lt;a&gt;&amp;larr; Previous&lt;/a&gt;&lt;/li&gt;
+
+            &lt;li&gt;&lt;a href="/home"&gt;All posts&lt;/a&gt;&lt;/li&gt;
+
+            &lt;li class="next"&gt;&lt;a href="/math/the-math-behind-the-calculator/" title="The math behind the calculator"&gt;Next &amp;rarr;&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;
+    var disqus_developer = 1;
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;blog comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+
+  &lt;/div&gt;
+  
+  &lt;div class="span4"&gt;
+    &lt;h4&gt;Published&lt;/h4&gt;
+    &lt;div class="date"&gt;&lt;span&gt;2012-08-14&lt;/span&gt;&lt;/div&gt;
+    &lt;br&gt;
+    &lt;h4&gt;Categories&lt;/h4&gt;
+    &lt;ul class="tag_box"&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;/div&gt;
+      &lt;footer&gt;&lt;/footer&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Google Prettify --&gt;
+&lt;script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+  var pres = document.getElementsByTagName("pre");
+  for (var i=0; i &lt; pres.length; ++i) {
+    pres[i].className = "prettyprint linenums";
+  }
+  prettyPrint();
+&lt;/script&gt;
+&lt;!-- end Google Prettify --&gt;
+    &lt;script&gt;
+  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+  </channel>
+</rss>

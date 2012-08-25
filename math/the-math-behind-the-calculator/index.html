@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>The math behind the calculator</title>
+    <meta name="description" content="hi hi hi hi">
+    <meta name="author" content="Eric Johnson">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/networthify/stylesheets/bootstrap.min.css?0.24861435880196148" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/networthify/stylesheets/blog.css?0.6992374648033031" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/networthify/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.8853861553113034" type="text/css" rel="stylesheet" media="all">
+
+ 
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand logo" href="/">Networth</a>
+          <a class="brand  ify" href="/">ify</a>
+          <a class="brand blog" href="/">(the blog)</a>
+          <ul class="nav">
+              
+                <li><a href="/">Home</a></li>
+              
+                <li><a href="/categories">Categories</a></li>
+              
+                <li><a href="/about">About Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="content">
+        <div class="page-header">
+  <h1>The math behind the calculator </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<p>Networthify.com calculates how many years you have to retirement. Lots of
+people have been curious about how it arrives at the magic number.  The answer
+to this question is: <em>Math!</em></p>
+
+<p>More specifically the equation which drives the calculator is derived from
+two common formulas used for dealing with compound interest. Many people must
+have done this before me but I couldn&#39;t find an example online and I enjoyed
+doing the math anyway.</p>
+
+<p><img class="src" src="http://farm2.staticflickr.com/1228/1443062022_25e5a0a12b.jpg" width="500" height="333" alt="calculator">
+<a class="src" href="http://www.flickr.com/photos/brandonshigeta/1443062022/">photo by brandon shigeta</a></p>
+
+<p>Before we start with the math, we have to define retirement or else we can&#39;t
+calculate how long it takes to get there.  This is a bit of a problem because
+people will define it differently.  But I&#39;ll just go ahead do it anyway.</p>
+
+<p>First, I have no idea what my expenses after retirement are going to be but I
+decided it can&#39;t be that different from my current expenses. After all I will
+still need to pay for food, housing, and entertainment. </p>
+
+<p>Also, I don&#39;t want to ever draw down my retirement nest egg. I want my wealth
+to grow, not shrink. I&#39;m being overly safe, but I don&#39;t want to have some bad
+luck or unexpectedly live to 120 years old and have to lower my standard of
+living.  I want my standard of living to go up because thats way more fun.</p>
+
+<p>So this is how I defined retirement:</p>
+
+<p>
+  \[ 
+    \begin{aligned}
+      currentExpenses &amp; = annualIncome - annualSavings \\
+      futureExpenses  &amp; = withdrawalRate \times futureValue \\
+      currentExpenses &amp; = futureExpenses \\
+    \end{aligned}
+  \]
+</p>
+
+<p>where <em>futureValue</em> is my total savings after retirement and <em>withdrawalRate</em>
+is slightly less than my average annual return on investment.  What we want to
+know is how long will it take to save a pile of money equal in size to
+<em>futureValue</em>.  </p>
+
+<p>Notice there are 2 basic ways to build a pile of money over time:</p>
+
+<ol>
+<li>Earn interest earned on our existing and growing pile of saved up money.</li>
+<li>Contribute savings from our annual income.</li>
+</ol>
+
+<p>Happily there are formulas for calculating this stuff.  Lets take a look at them.</p>
+
+<div class="mathHeader">The capital accumulation formula</div>
+
+<p>\[ futureValueA = initialValue \times (1 + interestRate)^n \]</p>
+
+<p>Lets say you have an initial pile of money.  And someone is willing to pay you
+some interest for it.  This formula calculates how big your pile of money will
+be in the future.</p>
+
+<p>More precisely: it calculates how much money you will have in the future given
+an initial balance which earns interest each time period for n time periods.
+The time period I use is one month.</p>
+
+<div class="mathHeader">The future value of a series formula</div>
+
+<p>\[ futureValueB = payment \times \frac{ (1 + interestRate)^n - 1 }{ interestRate } \]</p>
+
+<p>This formula also calculates how much money you will have in the future. But
+this time you start with no money and contribute a payment each time period for
+n time periods while earning interest on your growing pile of money.</p>
+
+<p>Again I want to use a time period of one month.  I&#39;ll make a small change and
+now this formula calculates what happens when you put some of your salary into
+your savings account each month:</p>
+
+<p>
+  \[ futureValueB = \frac{annualIncome}{12} \times \frac{ (1 + interestRate)^n - 1 }{ interestRate } \]
+</p>
+
+<p>But what we really want is a single formula we can solve for n to figure out
+how long it will take to reach retirement.  So lets start doing some
+substitutions:</p>
+
+<p>
+  \[ 
+    \begin{aligned}
+                   currentExpenses &amp; = annualIncome - annualSavings \\
+                   futureExpenses  &amp; = withdrawalRate \times futureValue \\
+                   currentExpenses &amp; = futureExpenses \\
+                                   \\
+                      futureValue &amp; = futureValueA + futureValueB \\
+                                   \\
+                   currentExpenses &amp; = withdrawalRate \times (futureValueA + futureValueB) \\
+      annualIncome - annualSavings &amp; = withdrawalRate \times (futureValueA + futureValueB) \\
+    \end{aligned}
+  \] 
+</p>
+
+<p>Awesome.  So now its a &quot;simple&quot; matter of solving for n. So after doing substitutions for <em>futureValueA</em> and <em>futureValueB</em>, 
+doing natural log stuff, <em>handwaving</em>, <em>handwaving</em> -- I arrived at the following:</p>
+
+<p>
+  \[
+    n = \frac{ln(interestRate \times \frac{\frac{1 - savingsRate}{savingsRate} + withdrawalRate \times initialValue}{withdrawalRate \times initialValue})}{ln(1 + interestRate)}
+  \]
+</p>
+
+<p>And thats the math behind the calculator.  Here is more reading for the super duper interested:</p>
+
+<ul>
+<li><a href="http://betterexplained.com/articles/demystifying-the-natural-logarithm-ln/">http://betterexplained.com/articles/demystifying-the-natural-logarithm-ln/</a></li>
+<li><a href="http://www.patrickschneider.com/blog/2008/03/compound-interest-with-an-initial-balance-and-monthly-contributions/">http://www.patrickschneider.com/blog/2008/03/compound-interest-with-an-initial-balance-and-monthly-contributions/</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Compound_interest">http://en.wikipedia.org/wiki/Compound_interest</a></li>
+</ul>
+
+    <div class="pagination pagination-centered">
+      <ul>
+        <ul>
+            <li class="prev"><a href="/spending-money-shortens-your-life/" title="Spending money shortens your life">&larr; Previous</a></li>
+
+            <li><a href="/home">All posts</a></li>
+
+            <li class="next disabled"><a>Next &rarr;</a>
+        </ul>
+      </ul>
+    </div>
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_developer = 1;
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  </div>
+  
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>2012-08-17</span></div>
+    <br>
+    <h4>Categories</h4>
+    <ul class="tag_box">
+      <li>
+        <a href="/categories#math-ref">math <span>1</span></a>
+      </li>    </ul>
+  </div>
+</div>
+
+      </div>
+      <footer></footer>
+    </div>
+
+    <!-- Google Prettify -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"></script>
+<script>
+  var pres = document.getElementsByTagName("pre");
+  for (var i=0; i < pres.length; ++i) {
+    pres[i].className = "prettyprint linenums";
+  }
+  prettyPrint();
+</script>
+<!-- end Google Prettify -->
+    <script>
+  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+  </body>
+</html>
