@@ -3,7 +3,7 @@
   <channel>
     <title>Networthify (the blog)</title>
     <link>http://blog.networthify.com</link>
-    <pubDate>2012-08-25 14:38:48 +0100</pubDate>
+    <pubDate>2012-08-25 14:51:11 +0100</pubDate>
     <item>
       <title>The math behind the calculator</title>
       <link>http://blog.networthify.com/math/the-math-behind-the-calculator/</link>
@@ -27,9 +27,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/networthify/stylesheets/bootstrap.min.css?0.4718943762873472" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/networthify/stylesheets/blog.css?0.49997021256487795" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/networthify/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.4410473687010852" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/networthify/stylesheets/bootstrap.min.css?0.2170784688489611" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/networthify/stylesheets/blog.css?0.7012903126354709" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/networthify/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.017200518363097772" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -114,7 +114,7 @@ trade your time&amp;nbsp;for food and housing.&lt;/p&gt;
     &lt;div id="disqus_thread"&gt;&lt;/div&gt;
 &lt;script&gt;
     var disqus_developer = 1;
-    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    var disqus_shortname = 'networthify'; // required: replace example with your forum shortname
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -154,7 +154,7 @@ trade your time&amp;nbsp;for food and housing.&lt;/p&gt;
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-30610896-2'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
