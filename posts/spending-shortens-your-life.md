@@ -2,7 +2,7 @@
 title: Spending money shortens your life
 date: '2012-08-14'
 description:
-categories:
+categories: saving
 ---
 
 <p>One morning you awake to find the tooth fairy made an accounting error in
