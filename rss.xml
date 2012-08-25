@@ -3,7 +3,7 @@
   <channel>
     <title>Networthify (the blog)</title>
     <link>http://blog.networthify.com</link>
-    <pubDate>2012-08-25 14:51:11 +0100</pubDate>
+    <pubDate>2012-08-25 15:02:49 +0100</pubDate>
     <item>
       <title>The math behind the calculator</title>
       <link>http://blog.networthify.com/math/the-math-behind-the-calculator/</link>
@@ -27,9 +27,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/networthify/stylesheets/bootstrap.min.css?0.2170784688489611" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/networthify/stylesheets/blog.css?0.7012903126354709" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/networthify/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.017200518363097772" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/networthify/stylesheets/bootstrap.min.css?0.42159779861332525" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/networthify/stylesheets/blog.css?0.36837162646061306" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/networthify/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.028636932343942822" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -153,12 +153,17 @@ trade your time&amp;nbsp;for food and housing.&lt;/p&gt;
   prettyPrint();
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
-    &lt;script&gt;
-  var _gaq=[['_setAccount','UA-30610896-2'],['_trackPageview']];
-  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-  s.parentNode.insertBefore(g,s)}(document,'script'));
-&lt;/script&gt;
+    &lt;script type="text/javascript"&gt;
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-30610896-2']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    &lt;/script&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 </description>
