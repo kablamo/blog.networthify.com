@@ -1,16 +1,14 @@
-title : Blog Title
-tagline: Blog Tagline
+title : Networthify (the blog)
+tagline: Awesome personal finance tools for savings extremists
 author :
-  name : Firstname Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
+  name : Eric Johnson
+  email : eric@networthify.com
+  github : kablamo
+  twitter : kablamo_
   feedburner : feedname
 
 navigation :
-  - archive.html
-  - tags.html
+  - index.html
   - categories.html
-  - pages.html
   - about.md
   
