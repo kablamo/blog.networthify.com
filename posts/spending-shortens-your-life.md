@@ -1,7 +1,6 @@
 ---
 title: Spending money shortens your life
 date: '2012-08-14'
-description:
 categories: saving
 ---
 

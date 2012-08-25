@@ -1,7 +1,6 @@
 ---
 title: The math behind the calculator
 date: '2012-08-17'
-description: 
 categories: math
 ---
 <script type="text/javascript"
