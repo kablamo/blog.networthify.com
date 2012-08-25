@@ -3,7 +3,7 @@
   <channel>
     <title>Networthify (the blog)</title>
     <link>http://blog.networthify.com</link>
-    <pubDate>2012-08-25 14:23:38 +0100</pubDate>
+    <pubDate>2012-08-25 14:33:01 +0100</pubDate>
     <item>
       <title>The math behind the calculator</title>
       <link>http://blog.networthify.com/math/the-math-behind-the-calculator/</link>
@@ -27,9 +27,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/networthify/stylesheets/bootstrap.min.css?0.6632629083788542" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/networthify/stylesheets/blog.css?0.48349728940003855" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/networthify/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.83642748324552" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/networthify/stylesheets/bootstrap.min.css?0.8854311176076693" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/networthify/stylesheets/blog.css?0.27686280945233244" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/networthify/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.12477841220867092" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
