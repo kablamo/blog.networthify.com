@@ -3,7 +3,7 @@
   <channel>
     <title>Networthify (the blog)</title>
     <link>http://blog.networthify.com</link>
-    <pubDate>2012-08-25 15:02:49 +0100</pubDate>
+    <pubDate>2012-08-25 15:17:32 +0100</pubDate>
     <item>
       <title>The math behind the calculator</title>
       <link>http://blog.networthify.com/math/the-math-behind-the-calculator/</link>
@@ -27,9 +27,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/networthify/stylesheets/bootstrap.min.css?0.42159779861332525" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/networthify/stylesheets/blog.css?0.36837162646061306" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/networthify/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.028636932343942822" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/networthify/stylesheets/bootstrap.min.css?0.4953921424239317" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/networthify/stylesheets/blog.css?0.17987767047898484" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/networthify/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.6417718784970879" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -155,7 +155,7 @@ trade your time&amp;nbsp;for food and housing.&lt;/p&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script type="text/javascript"&gt;
       var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-30610896-2']);
+      _gaq.push(['_setAccount', 'UA-30610896-1']);
       _gaq.push(['_trackPageview']);
     
       (function() {
