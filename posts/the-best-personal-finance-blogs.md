@@ -30,7 +30,7 @@ Lacking Ambition
 ----------------
 
 My favorite thing about <a href="http://lackingambition.com/">Lacking
-Ambition</a> is its thoughtful exploration of the philosophy of work, money,
+Ambition</a> is the thoughtful exploration of the philosophy of work, money,
 and time.  Its also the story of how one guy found financial independence
 through real estate and frugality.  I recommend reading it from the beginning.
 
