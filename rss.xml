@@ -3,7 +3,146 @@
   <channel>
     <title>Networthify (the blog)</title>
     <link>http://blog.networthify.com</link>
-    <pubDate>2012-09-06 21:18:53 +0100</pubDate>
+    <pubDate>2012-12-21 11:21:31 +0000</pubDate>
+    <item>
+      <title>Withdrawal rates</title>
+      <link>http://blog.networthify.com/withdrawal-rates</link>
+      <pubDate>2012-12-20</pubDate>
+      <description>&lt;script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"&gt;
+&lt;/script&gt;
+
+&lt;p&gt;Lets say you reach your goal of retirement.  You quit your job sit on your
+sailboat and eat pineapples all day.  The wind is in your hair, you are relaxed
+and carefree, and you have pineapple breath.  All because you have a formidable
+nest egg and can live comfortably off your investment earnings.  &lt;/p&gt;
+
+&lt;p&gt;But how do you know how much of your nest egg you can withdraw and spend each
+year?  &lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;How to calculate your withdrawal rate&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;Step 1&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Calculate how much you spend each year.  This step requires actual
+effort so people often don&amp;#39;t bother.  But this step is the &lt;em&gt;key&lt;/em&gt; to retiring early
+and the key to retiring at all.  Happily there are online tools to help you.  I
+of course will recommend &lt;a href="http://networthify.com"&gt;Networthify&lt;/a&gt;.  But
+&lt;a href="http://cashbasehq.com"&gt;CashBaseHQ&lt;/a&gt; and &lt;a href="http://mint.com"&gt;Mint&lt;/a&gt; are great
+as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Step 2&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Divide your annual spending by the size of your nest egg.  Thats your
+withdrawal rate.&lt;/p&gt;
+
+&lt;p&gt;
+  \[ 
+    \begin{aligned}
+      NestEgg \times WithdrawalRate &amp;amp; =  AnnualSpending \\
+                     WithdrawalRate &amp;amp; =  \frac{ AnnualSpending }{ NestEgg } \\
+    \end{aligned}
+  \]
+&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;But...&lt;/h2&gt;
+
+&lt;p&gt;But there is a problem.  Your withdrawal rate could change dramatically
+each year depending on the size of your nest egg each year.  For example:&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;A happy scenario&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Your $1 million nest egg earns 10% returns this year.  &lt;br&gt;
+Your withdrawal rate could be as high as $100,000.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;A sad scenario&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Your $1 million nest egg earns 1% returns this year.  &lt;br&gt;
+Your withdrawal rate could be as high as $10,000.&lt;/p&gt;
+
+&lt;p&gt;Those are radically different outcomes.  Living off $10,000 for a year will not
+get you to the pineapple breath you were hoping for.  Now consider how big a
+difference it makes if you have 15 good years when you first retire vs if you
+happen to get 15 bad years.  It is massive.&lt;/p&gt;
+
+&lt;p&gt;If you are starting your career and trying to plan for retirement, all the
+calculators out there ask you to input a withdrawal rate.  &lt;b&gt;What you now know
+is that is impossible to know&lt;/b&gt;.  It will depend on market conditions,
+inflation, and changes to tax law.  And none of those is knowable.&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;If you are already retired this means you need to be flexible when considering
+your withdrawal rate.  Each year will be different and you must be especially
+careful in your first 10 years of retirement.&lt;/p&gt;
+
+&lt;p&gt;But what do you do if you are starting your career and trying to plan your
+retirement?  Basically we guess.  But we do an educated guess.&lt;/p&gt;
+
+&lt;p&gt;Researchers like Wade Pfau have discovered that a nest egg that uses a constant
+withdrawal rate of 4% survives any period of US stock market history --
+including the Great Depression.  This is why all of networthify&amp;#39;s calculators
+default to a 4% withdrawal rate.&lt;/p&gt;
+
+&lt;p&gt;That sounds like good news, but remember that past performance doesn&amp;#39;t predict
+future performance.  Most worrying Wade Pfau also ran the numbers using
+European historical stock market data and found that in some countries there
+were periods when a withdrawal rate of 0 would not preserve your nest egg.  &lt;/p&gt;
+
+&lt;h2 id="toc_3"&gt;More reading&lt;/h2&gt;
+
+&lt;p&gt;If you want to learn more, here is a fun &lt;a href="http://www.mrmoneymustache.com/2012/05/29/how-much-do-i-need-for-retirement/"&gt;introduction to withdrawal rates&lt;/a&gt;
+written by Mr Money Mustache.  &lt;/p&gt;
+
+&lt;p&gt;But the definitive article on withdrawal rates is &lt;a href="http://financialmentor.com/free-articles/retirement-planning/how-much-to-retire/are-safe-withdrawal-rates-really-safe"&gt;this one&lt;/a&gt;
+(its long) at FinancialMentor.com.  It is awesome and fascinating and I highly
+recommend it.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>The best personal finance blogs</title>
+      <link>http://blog.networthify.com/the-best-personal-finance-blogs</link>
+      <pubDate>2012-11-24</pubDate>
+      <description>&lt;p&gt;Here is a short list of the very best personal finance blogs on the internet.
+All of these websites are constructed entirely of Excellence.  They are so good
+I read every post in their archives.  Each author has found a way to retire in
+under 10 years with fairly normal human level salaries and has insightful
+things to say about getting to financial freedom.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Mr Money Mustache&lt;/h2&gt;
+
+&lt;p&gt;If I was marooned on a deserted island ... with limited bandwidth and could
+only read one blog, this is the one I would choose.  I recommend reading this
+blog from first post to last.  &lt;a href="http://www.mrmoneymustache.com/"&gt;Mr
+Money Mustache&lt;/a&gt; introduced me to the idea of early retirement.  Before that
+I was adrift, completely uninterested and wanted to spend the rest of my life
+working.  His persuasive upbeat writing will blow your mind on the subject of
+retirement.  And thats pretty hard to do considering how boring the subject is.&lt;/p&gt;
+
+&lt;p&gt;Defining post: &lt;a href="http://www.mrmoneymustache.com/2012/01/13/the-shockingly-simple-math-behind-early-retirement/"&gt;The shockingly simple math behind early retirement&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;Lacking Ambition&lt;/h2&gt;
+
+&lt;p&gt;My favorite thing about &lt;a href="http://lackingambition.com/"&gt;Lacking
+Ambition&lt;/a&gt; is its thoughtful exploration of the philosophy of work, money,
+and time.  Its also the story of how one guy found financial independence
+through real estate and frugality.  I recommend reading it from the beginning.&lt;/p&gt;
+
+&lt;p&gt;Defining post: &lt;a href="http://lackingambition.com/?p=423"&gt;A year alone in the desert&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;Early Retirement Extremist&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="earlyretirementextreme.com"&gt;ERE&lt;/a&gt; was the best and most popular
+writer in the early retirement community for a long time.  Unfortunately he no
+longer blogs but I definately found it worth my time to pore over his old
+posts.&lt;/p&gt;
+
+&lt;p&gt;Defining post: &lt;a href="http://earlyretirementextreme.com/how-i-live-on-7000-per-year.htm"&gt;How I live on 7000 per year&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+Any other great blogs that I should know about?&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Welcome people of Sweden</title>
       <link>http://blog.networthify.com/welcome-people-of-sweden</link>
