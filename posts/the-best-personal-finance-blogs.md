@@ -40,7 +40,7 @@ Defining post: <a href="http://lackingambition.com/?p=423">A year alone in the d
 Early Retirement Extremist
 --------------------------
 
-<a href="earlyretirementextreme.com">ERE</a> was the best and most popular
+<a href="http://earlyretirementextreme.com">ERE</a> was the best and most popular
 writer in the early retirement community for a long time.  Unfortunately he no
 longer blogs but I definately found it worth my time to pore over his old
 posts.
