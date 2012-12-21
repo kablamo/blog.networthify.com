@@ -11,7 +11,7 @@ I read every post in their archives.  Each author has found a way to retire in
 under 10 years with fairly normal human level salaries and has insightful
 things to say about getting to financial freedom.
 
-
+<br>
 Mr Money Mustache
 -----------------
 
@@ -23,9 +23,10 @@ I was adrift, completely uninterested and wanted to spend the rest of my life
 working.  His persuasive upbeat writing will blow your mind on the subject of
 retirement.  And thats pretty hard to do considering how boring the subject is.
 
-Defining post: <a href="http://www.mrmoneymustache.com/2012/01/13/the-shockingly-simple-math-behind-early-retirement/">The shockingly simple math behind early retirement</a>
+**Defining post:** <a href="http://www.mrmoneymustache.com/2012/01/13/the-shockingly-simple-math-behind-early-retirement/">The shockingly simple math behind early retirement</a>
 
 
+<br>
 Lacking Ambition
 ----------------
 
@@ -34,9 +35,10 @@ Ambition</a> is the thoughtful exploration of the philosophy of work, money,
 and time.  Its also the story of how one guy found financial independence
 through real estate and frugality.  I recommend reading it from the beginning.
 
-Defining post: <a href="http://lackingambition.com/?p=423">A year alone in the desert</a>
+**Defining post:** <a href="http://lackingambition.com/?p=423">A year alone in the desert</a>
 
 
+<br>
 Early Retirement Extremist
 --------------------------
 
@@ -45,8 +47,9 @@ writer in the early retirement community for a long time.  Unfortunately he no
 longer blogs but I definately found it worth my time to pore over his old
 posts.
 
-Defining post: <a href="http://earlyretirementextreme.com/how-i-live-on-7000-per-year.html">How I live on 7000 per year</a>
+**Defining post:** <a href="http://earlyretirementextreme.com/how-i-live-on-7000-per-year.html">How I live on 7000 per year</a>
 
 
+<br>
 <br>
 Any other great blogs that I should know about?
