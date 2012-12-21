@@ -45,7 +45,7 @@ writer in the early retirement community for a long time.  Unfortunately he no
 longer blogs but I definately found it worth my time to pore over his old
 posts.
 
-Defining post: <a href="http://earlyretirementextreme.com/how-i-live-on-7000-per-year.htm">How I live on 7000 per year</a>
+Defining post: <a href="http://earlyretirementextreme.com/how-i-live-on-7000-per-year.html">How I live on 7000 per year</a>
 
 
 <br>
