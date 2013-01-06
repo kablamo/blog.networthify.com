@@ -4,8 +4,6 @@ date: '2013-01-04'
 description:
 categories:
 tags: []
-
-type: draft
 ---
 
 The problem with this is you can't predict when you will die.  On average,
